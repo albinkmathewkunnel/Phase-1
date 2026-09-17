@@ -17,3 +17,13 @@ def findsum(list1):
     return sum
 
 print(findsum(list1))
+
+def greeting(name):
+    return "hello "+name
+
+
+person1={
+    "name":"Komal",
+    "age":27,
+    "city":"Rajasthan"
+}
