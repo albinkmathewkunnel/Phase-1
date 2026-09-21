@@ -16,4 +16,17 @@ try:
  
     print("division by zero")
 finally:
-    print("executing finally block")
+    print("executing finally block") 
+
+
+def safe_divide(a,b):
+    try:
+        return a/b
+    except ZeroDivisionError:
+        print("division by zero is not allowed")
+    except TypeError:
+        print("invalid input type")
+
+
+safe_divide(10,0)
+        
