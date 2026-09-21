@@ -29,4 +29,16 @@ def safe_divide(a,b):
 
 
 safe_divide(10,0)
-        
+
+
+def read_file_content(filename):
+    try:
+        open.read(filename)
+    except FileNotFoundError:
+        print("file not found")
+    except IsADirectoryError:
+        print("expected file but found directory")
+    finally:
+        print("executing finally block")
+
+read_file_content("test.txt")
