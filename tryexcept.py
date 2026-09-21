@@ -52,3 +52,16 @@ def calculate_mean(numbers):
 numbers=[1,2,3,4,5]
 
 print(calculate_mean(numbers))
+
+
+def name(name):
+    try:
+        name =input("enter your name:")
+        age = str(name)
+    except ValueError:
+        print("invalid input")
+
+    
+
+
+    
