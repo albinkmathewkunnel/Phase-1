@@ -46,5 +46,5 @@ cars=["bmw","lanb"]
 
 if "apple" in cars:
     print("yes")
-else:
+else: 
     print("no")
