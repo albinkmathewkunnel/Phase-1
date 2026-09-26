@@ -28,3 +28,23 @@ print(thislist)
 # Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
 # Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
 # Dictionary is a collection which is ordered** and changeable. No duplicate members.
+
+#Range of indexes 
+
+thislist =["apple","banana","cherry","orange","kiwi"]
+print(thislist[2:5])
+
+# Range of Negative Indexes
+# Specify negative indexes if you want to start the search from the end of the list:
+
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[-4:-1])
+
+#check any items in the list using IN 
+
+cars=["bmw","lanb"]
+
+if "apple" in cars:
+    print("yes")
+else:
+    print("no")
