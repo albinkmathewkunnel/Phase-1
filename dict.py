@@ -26,3 +26,24 @@ thisdict = {
   "year": 2020
 }
 print(thisdict)
+
+# Dictionary Length
+
+print(len(thisdict))
+
+# Dictionary Items - Data Types
+# The values in dictionary items can be of any data type:
+thisdict = {
+  "brand": "Ford",
+  "electric": False,
+  "year": 1964,
+  "colors": ["red", "white", "blue"]
+}
+
+# Python Collections (Arrays)
+# There are four collection data types in the Python programming language:
+
+# List is a collection which is ordered and changeable. Allows duplicate members.
+# Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+# Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+# Dictionary is a collection which is ordered** and changeable. No duplicate members.
